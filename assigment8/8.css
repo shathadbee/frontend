@@ -1,0 +1,55 @@
+body { 
+    margin: 0x;
+    height: 100vh;
+}
+.layout {
+    display: flex;
+flex-direction: row;}
+
+ .layout > .side-nav {
+    background-color: rgb(250, 203, 236);
+    
+    width: 30%;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 20px;
+
+}
+.layout>.side-nav > nav{
+display: flex;
+flex-direction:column;
+gap: 8px;
+
+}
+.layout>.side-nav >  nav > a{
+    border:solid;
+text-decoration: none;
+   
+ 
+}
+.content{ 
+    
+width: 60%;
+height: 100vh;
+padding: 20px;
+overflow: auto;
+height: 100vh;
+border: solid;
+
+}
+.card-section{
+   display: flex; 
+   gap: 12px;
+   flex-wrap:wrap;
+   border: solid;
+flex-direction: row;
+}
+.card-section> .card{
+background-color: rgb(177, 33, 33);
+border: solid;
+height: 100px;;
+width: 25%;
+
+
+}
