@@ -33,7 +33,7 @@ flex-direction:column;
 gap: 8px;
 
 }
-.layout>.side-nav >  nav > a{
+.layout>.side-nav >  nav > a {
    
 text-decoration: none;
    font-size: 15px;
