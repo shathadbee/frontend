@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background: darkgray;
+}
+main {
+ 
+    height: 100vh;
+    display: flex;
+}
+
+img {
+    width: 100%;
+   
+}
+.login-layout {
+    display: flex;
+   max-width: 1400px;
+   margin: auto
+}
+
+.col{flex:1;
+ 
+}
+
+.form-section{
+   display: flex;
+   height: 100%;
+}
+form{
+    max-width: 350px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+  }
+h1{
+   text-align: center;
+}
+a{
+    text-align: end;
+}
+
+.login-button{
+    padding: 20px;
+    background-color: rgb(5, 5, 78);
+    border: none;
+    color: #ffffff;
+
+}
+
+
