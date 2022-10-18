@@ -1,0 +1,269 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0;
+}
+.container { 
+    height: 100vh; 
+    display: grid;
+    grid-template-columns: repeat 18,1fr;
+    grid-template-rows: repeat 9,1fr;
+   
+    gap: 10px 10px;
+    grid-auto-flow: column dense;
+    grid-template-areas:
+      "S . . . . . . . . . . . . . . . . SS"
+      "h k . . . . . . . . . . J op dd df w we"
+      "hh hj . . . . . . . . . . v pl ed fd ar za"
+      "hhh d kk T dc c ww B i qy pppp x ko ioo sq gf ra ds"
+      "j s p ppp cc z qa qw V u Q xz ol ooi wq fff rrr b"
+      "l ss pp F zzz zz a e uu uuu f zx io oi sa t rr bv"
+      "D ll K G q qq aa ee yy o ff aaa oo iy as tt r bb"
+      ". . . A W E M O L hee U rrrr ttr yh hy uk kj lo"
+      ". . . I nn n m Y R rh hr fdd ppk yyy Z oki N ok";
+  }
+  
+  .h { grid-area: h;
+background-color: blue; }
+  
+  .hh { grid-area: hh; background-color: blue; }
+  
+  .hhh { grid-area: hhh;background-color: blue; }
+  
+  .j { grid-area: j;background-color: blue; }
+  
+  .l { grid-area: l; background-color: blue;}
+  
+  .k { grid-area: k;background-color: blue; }
+  
+  .hj { grid-area: hj;background-color: blue; }
+  
+  .d { grid-area: d; background-color: blue;}
+  
+  .s { grid-area: s; background-color: blue;}
+  
+  .ss { grid-area: ss; background-color: blue;}
+  
+  .ll { grid-area: ll; background-color: blue;}
+  
+  .kk { grid-area: kk; background-color: blue;}
+  
+  .p { grid-area: p; background-color: blue;}
+  
+  .pp { grid-area: pp; background-color: blue;}
+  
+  .ppp { grid-area: ppp; background-color: blue;}
+  
+  .dc { grid-area: dc; background-color: blue;}
+  
+  .c { grid-area: c; background-color: blue;}
+  
+  .cc { grid-area: cc;background-color: blue; }
+  
+  .z { grid-area: z;background-color: blue; }
+  
+  .zz { grid-area: zz;background-color: blue; }
+  
+  .zzz { grid-area: zzz;background-color: blue; }
+  
+  .q { grid-area: q;background-color: blue; }
+  
+  .qq { grid-area: qq; background-color: blue;}
+  
+  .ww { grid-area: ww; background-color: blue;}
+  
+  .qa { grid-area: qa;background-color: blue; }
+  
+  .a { grid-area: a; background-color: blue;}
+  
+  .aa { grid-area: aa; background-color: blue;}
+  
+  .qw { grid-area: qw;background-color: blue; }
+  
+  .e { grid-area: e;background-color: blue; }
+  
+  .ee { grid-area: ee; background-color: blue;}
+  
+  .i { grid-area: i; background-color: blue;}
+  
+  .uu { grid-area: uu; background-color: blue;}
+  
+  .yy { grid-area: yy;background-color: blue; }
+  
+  .qy { grid-area: qy; background-color: rgb(187, 24, 92);}
+  
+  .u { grid-area: u; background-color: rgb(187, 24, 92);}
+  
+  .uuu { grid-area: uuu; background-color: rgb(187, 24, 92);}
+  
+  .o { grid-area: o; background-color: rgb(187, 24, 92);}
+  
+  .pppp { grid-area: pppp; background-color: rgb(187, 24, 92);}
+  
+  .f { grid-area: f;background-color: rgb(187, 24, 92); }
+  
+  .ff { grid-area: ff; background-color: rgb(187, 24, 92);}
+  
+  .aaa { grid-area: aaa;background-color: rgb(187, 24, 92); }
+  
+  .zx { grid-area: zx;background-color: rgb(187, 24, 92); }
+  
+  .xz { grid-area: xz; background-color: rgb(187, 24, 92);}
+  
+  .x { grid-area: x; background-color: rgb(187, 24, 92);}
+  
+  .ko { grid-area: ko;background-color: rgb(187, 24, 92); }
+  
+  .ol { grid-area: ol; background-color: rgb(187, 24, 92);}
+  
+  .io { grid-area: io; background-color: rgb(187, 24, 92);}
+  
+  .oo { grid-area: oo;background-color: rgb(187, 24, 92); }
+  
+  .op { grid-area: op;background-color: rgb(187, 24, 92); }
+  
+  .pl { grid-area: pl; background-color: rgb(187, 24, 92);}
+  
+  .ioo { grid-area: ioo;background-color: rgb(187, 24, 92); }
+  
+  .ooi { grid-area: ooi;background-color: rgb(187, 24, 92);}
+  
+  .oi { grid-area: oi;background-color: rgb(187, 24, 92); }
+  
+  .iy { grid-area: iy; background-color: rgb(187, 24, 92);}
+  
+  .as { grid-area: as; background-color: rgb(187, 24, 92);}
+  
+  .sa { grid-area: sa; background-color: rgb(187, 24, 92);}
+  
+  .sq { grid-area: sq; background-color: rgb(187, 24, 92);}
+  
+  .wq { grid-area: wq; background-color: rgb(187, 24, 92);}
+  
+  .ed { grid-area: ed;background-color: rgb(187, 24, 92); }
+  
+  .dd { grid-area: dd; background-color: rgb(187, 24, 92);}
+  
+  .df { grid-area: df; background-color: rgb(187, 24, 92);}
+  
+  .fd { grid-area: fd;background-color: rgb(187, 24, 92);}
+  
+  .gf { grid-area: gf; background-color: rgb(187, 24, 92);}
+  
+  .fff { grid-area: fff;background-color: rgb(187, 24, 92); }
+  
+  .t { grid-area: t; background-color: rgb(187, 24, 92);}
+
+  .tt { grid-area: tt; background-color: rgb(187, 24, 92);}
+  
+  .r { grid-area: r; background-color: rgb(187, 24, 92);}
+  
+  .rr { grid-area: rr; background-color: rgb(187, 24, 92);}
+  
+  .rrr { grid-area: rrr;background-color: rgb(187, 24, 92); }
+  
+  .ra { grid-area: ra;background-color: rgb(187, 24, 92); }
+  
+  .ar { grid-area: ar; background-color: rgb(187, 24, 92);}
+  
+  .w { grid-area: w;background-color: rgb(187, 24, 92); }
+  
+  .we { grid-area: we;background-color: rgb(187, 24, 92); }
+  
+  .za { grid-area: za; background-color: rgb(187, 24, 92);}
+  
+  .ds { grid-area: ds; background-color: rgb(187, 24, 92);}
+  
+  .b { grid-area: b; background-color: rgb(187, 24, 92);}
+  
+  .bb { grid-area: bb; background-color: rgb(187, 24, 92);}
+  
+  .bv { grid-area: bv; background-color: rgb(187, 24, 92); }
+  
+  .hee { grid-area: hee;background-color: rgb(187, 24, 92);}
+  
+  .rrrr { grid-area: rrrr;background-color: rgb(187, 24, 92); }
+  
+  .ttr { grid-area: ttr;background-color: rgb(187, 24, 92); }
+  
+  .yh { grid-area: yh;background-color: rgb(95, 186, 247); }
+  
+  .hy { grid-area: hy; background-color: rgb(95, 186, 247);}
+  
+  .uk { grid-area: uk; background-color: rgb(95, 186, 247);}
+  
+  .kj { grid-area: kj; background-color: rgb(95, 186, 247);}
+  
+  .lo { grid-area: lo; background-color: rgb(95, 186, 247);}
+  
+  .ok { grid-area: ok; background-color: rgb(95, 186, 247);}
+  
+  .oki { grid-area: oki; background-color: rgb(95, 186, 247);}
+  
+  .yyy { grid-area: yyy;background-color: rgb(95, 186, 247); }
+  
+  .ppk { grid-area: ppk;background-color: rgb(95, 186, 247); }
+  
+  .fdd { grid-area: fdd;background-color: rgb(95, 186, 247); }
+  
+  .hr { grid-area: hr;background-color: rgb(95, 186, 247); }
+  
+  .rh { grid-area: rh;background-color: rgb(95, 186, 247); }
+  
+  .m { grid-area: m;background-color: rgb(95, 186, 247); }
+  
+  .n { grid-area: n;background-color: rgb(95, 186, 247); }
+  
+  .nn { grid-area: nn; background-color: rgb(95, 186, 247);}
+  
+  .v { grid-area: v; background-color: rgb(95, 186, 247);}
+  
+  .S { grid-area: S;background-color: rgb(95, 186, 247); }
+  
+  .SS { grid-area: SS; background-color: rgb(95, 186, 247);}
+  
+  .J { grid-area: J;background-color: rgb(95, 186, 247); }
+  
+  .B { grid-area: B;background-color: rgb(95, 186, 247); }
+  
+  .M { grid-area: M;background-color: rgb(241, 245, 11);}
+  
+  .O { grid-area: O; background-color: rgb(241, 245, 11);}
+  
+  .L { grid-area: L; background-color: rgb(241, 245, 11);}
+  
+  .Q { grid-area: Q; background-color: rgb(241, 245, 11);}
+  
+  .F { grid-area: F;background-color: rgb(241, 245, 11); }
+  
+  .K { grid-area: K; background-color: rgb(241, 245, 11);}
+  
+  .E { grid-area: E; background-color: rgb(241, 245, 11);}
+  
+  .W { grid-area: W; background-color: rgb(241, 245, 11);}
+  
+  .R { grid-area: R; background-color: rgb(241, 245, 11);}
+  
+  .Z { grid-area: Z; background-color: rgb(241, 245, 11);}
+ 
+  
+  .N { grid-area: N;background-color: rgb(241, 245, 11); }
+  
+  .G { grid-area: G; background-color: rgb(241, 245, 11);}
+  
+  .T { grid-area: T; background-color: rgb(241, 245, 11);}
+  
+  .V { grid-area: V; background-color: rgb(241, 245, 11);}
+  
+  .A { grid-area: A; background-color: rgb(241, 245, 11);}
+  
+  .Y { grid-area: Y; background-color: rgb(241, 245, 11);}
+  
+  .D { grid-area: D; background-color: rgb(241, 245, 11);}
+  
+  .U { grid-area: U; background-color: rgb(241, 245, 11);}
+  
+  .I { grid-area: I;background-color: rgb(241, 245, 11); }
+  
