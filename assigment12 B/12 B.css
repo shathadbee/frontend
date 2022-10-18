@@ -1,0 +1,23 @@
+
+
+.container{
+display: flex;
+flex-direction:row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+align-content: center;
+gap: 10px;
+height: 100vh;
+}
+.child {
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: 150px;
+order: 1;
+height: 150px;
+border: 1px solid chocolate;
+}
+
+
+
