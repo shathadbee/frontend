@@ -1,0 +1,84 @@
+*{
+box-sizing: border-box;
+}
+ body{  margin: 0;
+ }
+
+.layout { display: flex;
+ height: 100vh;
+flex-direction: row;
+
+}
+ .side-nav{
+    width: 30%;
+    padding: 20px;
+    background-color: aquamarine;
+    max-width: 150px;
+    height: 100vh;
+ }
+ 
+ 
+
+ nav {
+    display: flex;
+    flex-direction: column;
+gap: 8px;
+ } 
+
+
+ a {font-size: 20px;
+ } 
+
+ .contant {
+    width: 60%;
+    padding: 20px;
+    height: 100vh;
+
+ 
+
+ } 
+
+
+
+ .card-section{  
+     flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+
+  }  
+
+
+
+ .card {  background-color: blue;
+flex: 1 1 150px; 
+height: 150px;} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
