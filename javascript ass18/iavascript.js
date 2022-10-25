@@ -1,6 +1,4 @@
 
-
-
   onload=function() {
     document.querySelector("h1").style.backgroundColor = "lightblue";
     document.getElementById("p").style.backgroundColor = "red";
