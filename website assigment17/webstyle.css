@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{ font-family: 'Poppins', sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;}
+
+a{text-decoration: none;}
+
+header{background-color: #8b0000;
+    width:100% ;
+    position: fixed;
+z-index: 2;
+justify-content: center;
+padding:1.2rem 3rem;
+
+}
+.header-content{
+    max-width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+.logo{
+    color: coral;
+    text-transform: uppercase;
+    font-weight:700 ;
+font-size: 1.8rem;
+}
+.navigation a {color: coral;
+    font-size: 1.2;
+    font-weight: 500;
+padding-left: 1rem;
+}
+.navigation a:hover{color: darkgreen;
+    
+}
+
+section{
+margin: auto;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background:url(/imgs/images.jpg);
+    background-image: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center; 
+}
+.main>div{
+    max-width: 1000px;
+    padding: 1rem 0 0 160px;
+}
+  
+
+
+.main h2{
+color: #ffffff;
+font-size:1.4 ;
+font-weight:500 ;
+}
+.main span{
+color:#8b0000;
+font-size: 3rem;
+font-weight: 600;
+display: inline-block;
+margin-top: 1rem; 
+}
+.main h1 {
+    color: #ffffff;
+font-size:1.8 ;
+font-weight:600 ;
+margin: .6rem  0 .8rem;
+}
+.main-btn{
+color: #ffffff;
+background-color:#8b0000 ;
+font-size: 1.2rem;
+font-weight: 600;
+display: inline-block;
+padding: .88rem 2rem;
+border-radius: 14px;
+margin-bottom: 1.6rem;
+transition: 0.6s ease;
+
+}
+.main-btn:hover{
+    background-color: #8b0000;
+    transform: scale(1.1);
+
+}
+
+.social-icons a {
+color: #ffffff;
+font-size: 1.6rem;
+padding-right: 1rem;
+}
+.tittle{
+    display: flex;
+    justify-content: center;
+   color:#8b0000; 
+   font-size: 2.2rem;
+   font-weight: 700;
+   margin-bottom: 1.8rem;
+   padding: 10px;
+}
+.contant{
+    display: flex;
+   justify-content: center;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+.card{
+    background-color: #ffffff;
+    width: 400px;
+    box-shadow: 0 7px 40px rgba(1, 1, 1, 18%);
+    border-radius: 12px;
+    padding: 1rem;
+    margin: .8rem;
+    transition: .7s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.icon{
+color: #8b0000;
+font-size:8em ;
+text-align: center;
+}
+.card-info{
+    text-align: center;
+}
+
+.card-info h3 { color: #8b0000;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: .6rem;
+
+}
+.card-info p{
+    font-size:1rem ;
+    font-weight: 500; 
+} 
+.project{
+    background-color: #000000;
+}
+.project .contant {
+    margin-top: 1.8rem;
+}
+.project-card{
+    background-color: #ffffff;
+    border:1px solid #8b0000;
+min-height: 10rem;
+width: 24rem;
+border-radius:10px;
+margin: 20px;
+transition: 0.7s ease;
+}
+.project-card:hover{
+    transform: scale(1.1);
+}
+.project-img img{
+    width:100%;
+    border-radius: 10px;
+}
+.project-card .project-img:hover{
+    opacity: .8;
+}
+.project-info{
+    padding: 1rem;
+}
+.project-info p {
+    font-size: .8rem;
+ color: #080808;
+}
+.project-tittle{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 700;
+margin-top: .8rem;
+
+}
+.more-details {
+    color: #8b0000;
+  }
+  .more-details:hover{
+color: darkgreen;
+  }
+
+  .contact .icon{
+    font-size:1rem;
+  }
+  footer{
+    background-color: #8b0000;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+ .footer-title{
+font-size:1.2rem;
+font-weight: 700;
+ }
+ .footer-title span{
+    color: coral;
+ }
+
+ @media (max-width:900px) {
+
+header{
+    padding: 0.6rem .6rem;
+}
+.tittle{
+    font-size:2rem ;
+}
+.navigation a{
+    padding-left: 6px;
+
+ }
+ section{
+    padding: .8rem;
+ }
+ .logo{
+font-size: none;
+ }
+ .main>div{padding-left: 1rem;}
+ footer{
+    padding: 0.5rem;
+  
+ }
+ .social-icons a {padding-right: .4rem;}
+ 
+}
