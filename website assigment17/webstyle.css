@@ -46,7 +46,7 @@ margin: auto;
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background:url(/imgs/images.jpg);
+    background:url(/imgs/WhatsApp\ Image\ 2022-10-25\ at\ 11.14.04\ PM.jpeg);
     background-image: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -60,7 +60,7 @@ margin: auto;
 
 
 .main h2{
-color: #ffffff;
+color: #000000;
 font-size:1.4 ;
 font-weight:500 ;
 }
@@ -72,7 +72,7 @@ display: inline-block;
 margin-top: 1rem; 
 }
 .main h1 {
-    color: #ffffff;
+    color: #0c0c0c;
 font-size:1.8 ;
 font-weight:600 ;
 margin: .6rem  0 .8rem;
